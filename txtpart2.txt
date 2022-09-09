@@ -1,0 +1,15 @@
+usuario = (input("Usuario:"))
+
+senha = (input('Senha:'))
+
+
+
+
+
+while senha != "Senha123@":
+
+    senha = (input('sua senha esta incorreta digite novamente:'))
+
+    if(senha == "Senha123@"):
+
+    print("logado:")

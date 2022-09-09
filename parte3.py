@@ -1,0 +1,17 @@
+lado1 = int(input("digite a medida do lado esquerdo:"))
+lado2 = int(input("digite a medida do lado direito:"))
+lado3 = int(input("digite a medida da base:"))
+
+
+if(lado1 != lado2 and lado1 != lado3 and lado2 != lado3):
+    print('Escaleno')
+
+
+if(lado1 == lado2 and lado1 != lado3 and lado2 != lado3 or
+   lado1 != lado2 and lado1 == lado3 and lado2 != lado3 or
+   lado1 != lado2 and lado1 != lado3 and lado2 == lado3):
+    print('Isósceles')
+
+
+if(lado1 == lado2 and lado2 == lado3):
+    print('Equilatero')
